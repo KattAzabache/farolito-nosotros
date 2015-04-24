@@ -2,38 +2,44 @@
 <html>
 <html lang "en">
 	<head>
-		<title>Farolito</title>
+		<title>Nosotros</title>
 		<meta charset="utf-8">
 		<!-- Responsiveness -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid">
-           	<nav class="navbar navbar-default">
-                <div class="container">
-                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   </button>
-                </div>
-                 <!-- Collect the nav links, forms, and other content for toggling -->
-                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                   <ul class="nav navbar-nav">
-                     <li class=""><a href="#">Sobre nosotros </a></li>
-                     <li class=""><a href="#">Oportunidades | </a></li>
-                     <li class=""><a href="#">Blog | </a></li>
-                     <li class=""><a href="#">Ingresar</a></li>
-                   </ul>
-                 </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-            <header class="portada">
+       <div class="barra-de-navegacion">
+            <div class="menu_bar">
+               <a href="#" class="bt-menu">=</a>
+                <div class="boton2 hidden-lg hidden-md">
+                 <a href="http://katty-azabache.github.io/cuenta-farolito/"><h3>CREA TU PERFIL</h3></a>
+               </div>
+            </div>
+            <nav>
+              <ul>
+                <li class="hidden-lg hidden-md"><a href="http://katty-azabache.github.io/reto/">Home</a></li>
+                <li><a href="http://katty-azabache.github.io/reto/">Sobre nosotros</a></li><li class="hidden-xs">|</li>
+                <li class="hidden-lg hidden-md"><a href="#">Ingresa tu cuenta</a></li>
+                <li class="hidden-lg hidden-md"><a href="http://katty-azabache.github.io/blog-farolito/">Blog</a></li>
+                <li class="hidden-xs"><a href="http://katty-azabache.github.io/reto/#oportunidades">Oportunidades</a></li>
+                <li class="submenu hidden-xs">
+                  <a href="#"><span class="icon-rocket"></span><button>ES<span class="caret icon-arrow-down6"></span></button></a>
+                  <ul class="children">
+                    <li><a href="#">ESPAÑOL <span class="icon-dot"></span></a></li>
+                    <li><a href="#">INGLES <span class="icon-dot"></span></a></li>
+                  </ul>
+                </li>
+                <li class="ingresar hidden-xs"><a href="#"><span class="icon-earth"></span><button>INGRESAR</button></a></li>
+              </ul>
+
+            </nav>            
+       </div>
+            <header class="portada hidden-xs">
                <div class="container fondo">
                   <div class="texto">
                       <h1>Sobre nosotros</h1>
@@ -41,26 +47,182 @@
                   </div>
                </div>
             </header>
+            <header class="portada2 hidden-lg hidden-md">
+               <div class="container fondo2">
+                 <div class="texto2">
+                      <h1>Sobre nosotros</h1>
+                      <h3>Somos un grupo de personas. Que creemos en los trabajadores del Perú, bajo un análisis riguroso y apoyo continuo a profesionales.</h3>
+                 </div>
+               </div>
+            </header>
             <div class="flecha hidden-xs">
               <img src="fotos/iconos/iconos-15.png">
             </div>            
             <section class="segunda-section">
-                <div class="container equipo">
-                  <h1 class="text-center">Equipo</h1>
+                <div class="container equipo hidden-xs">
+                  <h1 class="text-center">Fundadores</h1>
                   <div class="row grid">
-                     <div class="col-4">
-                       <img class="img-circle" src="fotos/img/img-04.png">
-                     </div>
-                     <div class="col-4">
-                       <img class="img-circle" src="fotos/img/img-04.png">
-                     </div>
-                     <div class="col-4">
-                       <img class="img-circle" src="fotos/img/img-04.png">
-                     </div>                                          
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                       
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png">
+                        <h3>Adispicing elit</h3>  
+                        <h4>Diam Nonummy nibh</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                        
+                      </div>                                          
+                  </div>
+                  <div class="row grid">
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png">
+                        <h3>Adispicing elit</h3>  
+                        <h4>Diam Nonummy nibh</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                        
+                      </div>                                          
                   </div>
                 </div>
-            </section>
-        
+                <div class="container equipo2 hidden-lg hidden-md">
+                  <h1 class="text-center">Fundadores</h1>
+                  <div class="row grid">
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                       
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png">
+                        <h3>Adispicing elit</h3>  
+                        <h4>Diam Nonummy nibh</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                        
+                      </div>                                          
+                  </div>
+                  <div class="row grid">
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png">
+                        <h3>Adispicing elit</h3>  
+                        <h4>Diam Nonummy nibh</h4>
+                        <p class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                        
+                      </div>                                          
+                  </div>
+                </div>          
+            </section>  
+            <hr class="container hidden-xs"></hr>
+            <section class="tercera-section hidden-xs">
+              <div class="container asesores">
+                 <h1 class="text-center">Asesores</h1>
+                 <div class="row grid hidden-xs">
+                   <div class="col-md-6 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                   </div>
+                   <div class="col-md-6 col-xs-12">
+                        <img class="img-circle" src="fotos/img/img-04.png">
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p> 
+                   </div>
+                 </div>
+              </div>
+            </section>    
+            <hr class="container hidden-xs"></hr>
+            <section class="cuarta-section">
+              <div class="container test hidden-xs">
+                <h1 class="text-center">Test Advisory Committee </h1>
+                  <div class="row grid">
+                      <div class="col-md-4 col-xs-12"> 
+                        <h3>Sara Nandel</h3>  
+                        <h4>Gerente General</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                     
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <h3>Tom Barry</h3>  
+                        <h4>Gerente General</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                       
+                      </div>
+                      <div class="col-md-4 col-xs-12">
+                        <h3>Adispicing elit</h3>  
+                        <h4>Diam Nonummy nibh</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis ornare vulputate. Donec egestas tellus massa, quis vehicula leo ultricies faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>                        
+                      </div>                                          
+                  </div>
+              </div>
+            </section>  
+            <div class="flecha hidden-xs">
+              <img src="fotos/iconos/iconos-15.png">
+            </div> 
+            <section class="red">
+              <div class="container foco">
+                <img src="fotos/iconos/iconos-16.png">
+                <hr></hr>
+                <h1 class="h1-1 hidden-xs">"Todos somos genios,</h1>
+                <h1 class="h1-2 hidden-xs">Pero hay que descubrir nuestra capacidad"</h1>
+                <h1 class="h1-3 hidden-lg hidden-md">"Todos somos genios,Pero hay que descubrir nuestra capacidad"</h1>
+                <hr></hr>
+                <p>Con una evaluacion personalizada para el postulante, analisis comprensivo Big Data del puesto y el cliente se puede asegurar la sinergía óptima entre trabajador y empresa, para asi lograr mas productividad y permanencia.</p>           
+              </div>
+            </section> 
+            <section class="footer">
+              <div class="redes hidden-xs">
+                <ul>
+                  <li><a href="www.facebook.com"><img src="fotos/iconos/iconos-12.png"></a></li>
+                  <li><a href="www.twitter.com"><img src="fotos/iconos/iconos-13.png"></a></li>
+                  <li><a href="www.gmail.com"><img src="fotos/iconos/iconos-14.png"></a></li>
+                </ul>
+              </div>
+              <div class="redes2 hidden-lg hidden-md">
+                <ul>
+                  <li><a href="www.facebook.com"><img src="fotos/iconos/iconos-12.png"></a></li>
+                  <li><a href="www.twitter.com"><img src="fotos/iconos/iconos-13.png"></a></li>
+                  <li><a href="www.gmail.com"><img src="fotos/iconos/iconos-14.png"></a></li>
+                </ul>
+              </div>
+              <div class="reservar hidden-xs">
+                <h5>Todos los derechos reservados</h5>
+              </div>
+            </section>                        
+    
 		</div>
     <script src="mi-script.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
